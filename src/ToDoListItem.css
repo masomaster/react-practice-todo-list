@@ -1,0 +1,23 @@
+.ToDoListItem {
+  margin: 4vmin;
+  padding: 2vmin;
+  border: 1vmin solid purple;
+  list-style: none;
+  font-size: 6vmin;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.circle {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 4vmin;
+  /* aspect-ratio: 1 / 1; */
+  height: 8vmin;
+  width: 8vmin;
+}
